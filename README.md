@@ -1,38 +1,39 @@
-# create-svelte
+# My Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to My Portfolio, a personal website showcasing my work, skills, and experiences. It is built using Svelte and styled with Tailwind CSS.
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [About](#about)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## About
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+My Portfolio is a personal website designed to provide an introduction and showcase 3 of my most recent projects in my programming journey. It offers a glimpse into my journey, skills, and recent works.
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Features
 
-```bash
-npm run dev
+- **Projects:** Showcase my three most recent projects, complete with descriptions and links.
+- **Skills:** Highlight my technical skills and areas of expertise.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## Prerequisites
 
-To create a production version of your app:
+Before you start working with My Portfolio, ensure you have the following prerequisites:
 
-```bash
-npm run build
-```
+- [Node.js](https://nodejs.org/) - Required to run the project locally.
 
-You can preview the production build with `npm run preview`.
+## Getting Started
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To run My Portfolio locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Oluwaferanmi-Dev/My-Portfolio.git

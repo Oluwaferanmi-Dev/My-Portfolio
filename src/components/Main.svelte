@@ -84,20 +84,13 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p></p>
-        </a>
+       
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Otakumart NG is merchandising store created with
-                    <strong class="text-violet-400">Next.js, App Router, TypeScript, TailwindCSS, Prisma, DaisyUI </strong>, for otaku's
-                     nationwide to shop from a catalougue of anime themed merchandise</p>
+                    Gamers Hub NG is a pc parts store created with
+                    <strong class="text-violet-400">Next.js, App Router, TypeScript, TailwindCSS, Prisma, DaisyUI </strong>, for PC builders
+                     nationwide to shop from a catalougue of products</p>
             </Step>
 
                     <Step step={steps[1]}>
@@ -111,12 +104,12 @@
                     </Step>
                     <Step step={steps[2]}>
                         <p>
-                            Chat Me is a <strong class="text-violet-400"
-                                >React & Node.js</strong
+                            The TO DO app is a <strong class="text-violet-400"
+                                >HTML & CSS</strong
                             >
-                            web application that facilitates efficient communication and collaboration within companies. 
-                            It enables real-time messaging, helping teams coordinate tasks and share updates seamlessly with the help of
-                            <strong class="text-violet-400">Firebase</strong>
+                            web application that allows users to easily categorize their works lists
+                            
+                            
                            
                 </p>
             </Step>

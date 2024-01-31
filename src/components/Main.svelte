@@ -3,7 +3,7 @@
 
     let steps = [
         {
-            name: "Otakumart NG",
+            name: "GAMERS HUB NG",
             icon: "fa-solid fa-cart-shopping",
             
         },
@@ -13,7 +13,7 @@
             
         },
         {
-            name: "The Gadget Hub",
+            name: "TO DO APP",
             icon: "fa-solid fa-rocket",
            
         },

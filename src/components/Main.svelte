@@ -98,28 +98,49 @@ const links = {
                     Gamers Hub NG is a pc parts store created with
                     <strong class="text-violet-400">HTML and CSS </strong>, for PC builders
                      nationwide to shop from a catalougue of products</p>
+                <a href="https://caleb-gamers-hub.vercel.app/" target="_blank">
+                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                        <h4 class="relative z-9">Go to &rarr;</h4>
+                    </button>
+                </a>
             </Step>
-
-                    <Step step={steps[1]}>
-                        <p>
-                            Weather App is a mobile application made with <strong
-                                class="text-violet-400">Native Wind, JavaScript</strong
-                            >,
-                            <strong class="text-violet-400">React Native</strong
-                            >
-                            & <strong class="text-violet-400">Expo</strong>, It provides users with real-time weather updates, forecasts, and weather alerts.
-                    </Step>
-                    <Step step={steps[2]}>
-                        <p>
-                            The TO DO app is a <strong class="text-violet-400"
-                                >HTML & CSS</strong
-                            >
-                            web application that allows users to easily categorize their works lists
-                            
-                            
-                           
+            
+            <Step step={steps[1]}>
+                <p>
+                    Weather App is a mobile application made with <strong
+                        class="text-violet-400">Native Wind, JavaScript</strong
+                    >,
+                    <strong class="text-violet-400">React Native</strong
+                    >
+                    & <strong class="text-violet-400">Expo</strong>, It provides users with real-time weather updates, forecasts, and weather alerts.
                 </p>
+                <a href="#" target="_blank">
+                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                        <h4 class="relative z-9">Go to &rarr;</h4>
+                    </button>
+                </a>
             </Step>
+            
+            <Step step={steps[2]}>
+                <p>
+                    The TO DO app is a <strong class="text-violet-400"
+                        >HTML & CSS</strong
+                    >
+                    web application that allows users to easily categorize their works lists
+                    
+                    
+                   
+                </p>
+                <a href="https://caleb-to-do-app.vercel.app/" target="_blank">
+                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                        <h4 class="relative z-9">Go to &rarr;</h4>
+                    </button>
+                </a>
+            </Step>
+            
         </div>
     </section>
     <section

@@ -96,7 +96,7 @@ const links = {
             <Step step={steps[0]}>
                 <p>
                     Gamers Hub NG is a pc parts store created with
-                    <strong class="text-violet-400">Next.js, App Router, TypeScript, TailwindCSS, Prisma, DaisyUI </strong>, for PC builders
+                    <strong class="text-violet-400">HTML and CSS </strong>, for PC builders
                      nationwide to shop from a catalougue of products</p>
             </Step>
 

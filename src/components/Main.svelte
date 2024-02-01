@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
 const links = {
-  "GAMERS HUB NG": "https://gamershubng.com", // Replace with your actual link
-  "Weather App": "https://weatherapp.com", // Replace with your actual link
-  "TO DO APP": "https://caleb-to-do-app.vercel.app/", // Replace with your actual link
+  "GAMERS HUB NG": "https://caleb-gamers-hub.vercel.app/", 
+  "Weather App": "https://weatherapp.com", 
+  "TO DO APP": "https://caleb-to-do-app.vercel.app/", 
 };
 
     let steps = [
@@ -92,26 +92,7 @@ const links = {
         </div>
        
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-                <a href={links[steps[0].name]}>
-                  <Step step={steps[0]}>
-                    </Step>
-                  <p class="font-medium text-sm sm:text-md md:text-lg hover:text-violet-400 cursor-pointer">Visit Website</p>
-                </a>
-              
-                <a href={links[steps[1].name]}>
-                  <Step step={steps[1]}>
-                    </Step>
-                  <p class="font-medium text-sm sm:text-md md:text-lg hover:text-violet-400 cursor-pointer">Visit Website</p>
-                </a>
-              
-                <a href={links[steps[2].name]}>
-                  <Step step={steps[2]}>
-                    </Step>
-                  <p class="font-medium text-sm sm:text-md md:text-lg hover:text-violet-400 cursor-pointer">Visit Website</p>
-                </a>
-              </div>
-              
+            
             <Step step={steps[0]}>
                 <p>
                     Gamers Hub NG is a pc parts store created with

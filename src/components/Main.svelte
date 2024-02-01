@@ -1,6 +1,12 @@
  <script>
     import Step from "./Step.svelte";
 
+const links = {
+  "GAMERS HUB NG": "https://gamershubng.com", // Replace with your actual link
+  "Weather App": "https://weatherapp.com", // Replace with your actual link
+  "TO DO APP": "https://caleb-to-do-app.vercel.app/", // Replace with your actual link
+};
+
     let steps = [
         {
             name: "GAMERS HUB NG",

@@ -2,20 +2,20 @@
     import Step from "./Step.svelte";
 
 const links = {
-  "GAMERS HUB NG": "https://caleb-gamers-hub.vercel.app/", 
-  "Weather App": "https://weatherapp.com", 
+  "EDEN RESTORATION": "https://eden-nu.vercel.app/", 
+  "VUGA": "https://vuga.vercel.app/", 
   "TO DO APP": "https://caleb-to-do-app.vercel.app/", 
 };
 
     let steps = [
         {
-            name: "GAMERS HUB NG",
-            icon: "fa-solid fa-cart-shopping",
+            name: "EDEN RESTORATION",
+            icon: "fa-solid fa-hand-holding-heart",
             
         },
         {
-            name: "Weather App",
-            icon: "fa-solid fa-cloud",
+            name: "VUGA",
+            icon: "fa-solid fa-music",
             
         },
         {
@@ -30,7 +30,7 @@ const links = {
             metric: "10x",
             name: "a self taught developer",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "I'm a self-taught developer who has been building websites and apps for over 5 years. I love to learn new technologies and am always looking for new ways to improve my skills. I have experience with: HTML, CSS, JavaScript, Next.js, React, Svelte, Node.js, Firebase, Firestore.",
         },
         {
             name: "a product design & UX finatic",
@@ -54,14 +54,13 @@ const links = {
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Caleb</span> Oyelowo
+                Hi! I'm <span class="poppins text-violet-400">Oluwaferanmi</span> Oyelowo
                 <br />Full Stack
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & Firebase/Firestore!  
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
@@ -94,11 +93,12 @@ const links = {
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             
             <Step step={steps[0]}>
-                <p>
-                    Gamers Hub NG is a pc parts store created with
-                    <strong class="text-violet-400">HTML and CSS </strong>, for PC builders
-                     nationwide to shop from a catalougue of products</p>
-                <a href="https://caleb-gamers-hub.vercel.app/" target="_blank">
+                <p>The EDEN RESTORATION project is a non-governmental organization (NGO) aimed at providing for the less privileged.
+                     I built their website using <strong class="text-violet-400">Next.js</strong>,
+                     <strong class="text-violet-400">Node.js</strong>, <strong class="text-violet-400">Firestore</strong>, 
+                     <strong class="text-violet-400">TypeScript</strong>, and <strong class="text-violet-400">JavaScript</strong> 
+                     to deliver a modern and efficient user experience.</p>
+                <a href="https://eden-nu.vercel.app/" target="_blank">
                     <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
                         <h4 class="relative z-9">Go to &rarr;</h4>
@@ -107,15 +107,11 @@ const links = {
             </Step>
             
             <Step step={steps[1]}>
-                <p>
-                    Weather App is a mobile application made with <strong
-                        class="text-violet-400">Native Wind, JavaScript</strong
-                    >,
-                    <strong class="text-violet-400">React Native</strong
-                    >
-                    & <strong class="text-violet-400">Expo</strong>, It provides users with real-time weather updates, forecasts, and weather alerts.
-                </p>
-                <a href="#" target="_blank">
+                <p>VUGA is a music distribution and publishing service. I built their platform using <strong class="text-violet-400">
+                    Next.js</strong>, <strong class="text-violet-400">Node.js</strong>, <strong class="text-violet-400">Firestore</strong>, 
+                    <strong class="text-violet-400">TypeScript</strong>, and <strong class="text-violet-400">JavaScript</strong> 
+                    to deliver a modern and efficient experience for artists and music lovers.</p>
+                <a href="https://vuga.vercel.app/" target="_blank">
                     <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
                         <h4 class="relative z-9">Go to &rarr;</h4>

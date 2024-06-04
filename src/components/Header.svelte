@@ -3,9 +3,7 @@
 
     export let tabs = [
         { name: "Projects ", link: "#projects" },
-        { name: "About me", link: "#about" },
-        { name: "Blog", link: "" },
-        
+        { name: "About me", link: "#about" },   
     ];
 </script>
 
@@ -16,7 +14,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Caleb </b> <span class="">Oyelowo</span>
+        <b class="font-bold poppins">Oluwaferanmi </b> <span class="">Oyelowo</span>
     </h1>
     <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {#each tabs as tab, index}

@@ -19,7 +19,7 @@ const links = {
             
         },
         {
-            name: "TO DO APP",
+            name: "Webpulse",
             icon: "fa-solid fa-rocket",
            
         },
@@ -121,10 +121,10 @@ const links = {
             
             <Step step={steps[2]}>
                 <p>
-                    The TO DO app is a <strong class="text-violet-400"
-                        >HTML & CSS</strong
+                    WebPulse is a <strong class="text-violet-400"
+                        >React</strong
                     >
-                    web application that allows users to easily categorize their works lists
+                    web application that allows users to easily monitor performance issues and optimize builds
                     
                     
                    
